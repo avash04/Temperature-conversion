@@ -8,20 +8,27 @@
 </head>
 <body>
     <h1>Temperature conversion</h1>
-    <div id="main">
-    <input type="number" id="tempInput" placeholder="Enter temperature" ><br>
+    <div id="main1">
+    <input type="number" id="tempInput" placeholder="Enter temperature" >
 
-    <input type="radio" id="faren" name="unit" >
-    <label for="faren">Celcius to Fahrenheit</label><br>
+   <div class="options">
+    <div class="radio-group">
 
-    <input type="radio" id="celcius" name="unit">
-    <label for="celcius"> Fahrenheit to Celcius  </label><br>
-    <img src="img/scale.jpg">
+        <div id="firstElem">
+            <input type="radio" id="faren" name="unit">
+        <label for="faren">Celcius to Fahrenheit</label>
+        </div>
 
-    
-    <button >submit</button>
+        <div id="secondElem">
+            <input type="radio" id="celcius" name="unit">
+        <label for="celcius">Fahrenheit to Celcius</label>
+        </div>
+        
     </div>
-    <h2>Select a Unit</h2>
+
+    <img src="img/scale.jpg" alt="Temperature Scale">
+</div>
+<h2>Select a Unit</h2>
     <script src="code.js"></script>
 </body>
 </html>

@@ -1,13 +1,16 @@
 body{
     background-color: rgb(245, 189, 137);
 }
-#main{
+#main1{
+    max-width: 680px;
+    max-height: 600px;
     background-color: blanchedalmond;
     width: 40%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 10px 5px 35px  rgb(183, 176, 176);
     padding: 50px;
+    overflow: hidden;
 }
 h1{
     color: rgb(151, 39, 39);
@@ -24,5 +27,29 @@ h1{
   font-size: 14px;
   width: 50%;              /* makes it a nice size */
   text-align: center;      /* centers the text inside */
+}
+
+.options {
+    display: flex;
+    align-items: center;       /* vertical alignment */
+    justify-content: space-between; /* left-right spacing */
+}
+
+.radio-group{
+    display:flex;
+    padding-top: 20px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.options img {
+    max-width: 200px;        /* adjust size of image */
+    height: auto;
+    border-radius: 25px;      /* optional, makes image slightly rounded */
+}
+#secondElem,#firstElem{
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
