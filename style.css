@@ -27,7 +27,7 @@ h1{
   margin: 20px auto ;     /* auto left/right centers it */
   padding: 10px;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 20px;
   width: 50%;              /* makes it a nice size */
   text-align: center;      /* centers the text inside */
 }
